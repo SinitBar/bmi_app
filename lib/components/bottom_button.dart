@@ -14,7 +14,9 @@ class BottomButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: GestureDetector(
-        onTap: onTap(),
+        onTap: () {
+          onTap();
+        },
         child: Container(
           color: kPinkColor,
           padding: const EdgeInsets.only(bottom: 10.0),
@@ -29,20 +31,3 @@ class BottomButton extends StatelessWidget {
     );
   }
 }
-
-// GestureDetector(
-// onTap: onTap(),
-// child: Container(
-// color: kPinkColor,
-// height: kBottomContainerHeight,
-// width: double.infinity,
-// margin: const EdgeInsets.only(top: 10.0),
-// padding: const EdgeInsets.only(bottom: 20.0),
-// child: Center(
-// child: Text(
-// text,
-// style: kBigTextStyle,
-// ),
-// ),
-// ),
-// );

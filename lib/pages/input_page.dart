@@ -190,36 +190,6 @@ class InputPageState extends State<InputPage> {
             },
             text: 'CALCULATE',
           ),
-          // Expanded(
-          //   child: GestureDetector(
-          //     onTap: () {
-          //       BMICalculator calc = BMICalculator(
-          //         weight: weight,
-          //         height: height,
-          //       );
-          //       setState(() {
-          //         Navigator.push(
-          //           context,
-          //           MaterialPageRoute(
-          //               builder: (context) => ResultsPage(
-          //                     numberBMI: calc.countBMI(),
-          //                     conditionBMI: calc.returnCondition(),
-          //                   )),
-          //         );
-          //       });
-          //     },
-          //     child: Container(
-          //       color: kPinkColor,
-          //       padding: const EdgeInsets.only(bottom: 10.0),
-          //       child: const Center(
-          //         child: Text(
-          //           'CALCULATE',
-          //           style: kBigTextStyle,
-          //         ),
-          //       ),
-          //     ),
-          //   ),
-          // ),
         ],
       ),
     );

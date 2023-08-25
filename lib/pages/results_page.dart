@@ -25,7 +25,7 @@ class ResultsPage extends StatelessWidget {
             Expanded(
               flex: 2,
               child: Padding(
-                padding: EdgeInsets.all(20.0),
+                padding: const EdgeInsets.all(20.0),
                 child: Text(
                   conditionBMI,
                   style: kBigGreenTextStyle,
@@ -45,23 +45,6 @@ class ResultsPage extends StatelessWidget {
               },
               text: 'RE-CALCULATE',
             ),
-            // Expanded(
-            //   child: GestureDetector(
-            //     onTap: () {
-            //       Navigator.pop(context);
-            //     },
-            //     child: Container(
-            //       color: kPinkColor,
-            //       padding: const EdgeInsets.only(bottom: 10.0),
-            //       child: const Center(
-            //         child: Text(
-            //           'RE-CALCULATE',
-            //           style: kBigTextStyle,
-            //         ),
-            //       ),
-            //     ),
-            //   ),
-            // ),
           ],
         ),
       ),

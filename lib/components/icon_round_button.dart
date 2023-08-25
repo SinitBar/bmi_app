@@ -18,5 +18,4 @@ class IconRoundButton extends RawMaterialButton {
   Color? get fillColor => const Color(0xFF4C4F5E);
   @override
   ShapeBorder get shape => const CircleBorder();
-//RoundedRectangleBorder(borderRadius: BorderRadius.circular(25.0));
 }
